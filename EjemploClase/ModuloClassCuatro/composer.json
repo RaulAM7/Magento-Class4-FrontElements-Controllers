@@ -1,0 +1,19 @@
+json
+{
+    "name": "vendorclasscuatro/moduloclasscuatro",
+    "description": "El modulo creado para la Class 4 de Magento.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.4||~8.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VendorClassCuatro\\ModuloClassCuatro\\": ""
+        }
+    }
+}

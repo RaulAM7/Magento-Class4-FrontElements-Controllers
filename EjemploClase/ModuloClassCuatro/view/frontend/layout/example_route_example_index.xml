@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- -->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+
+            <!-- Definimos un bloque / Lo asociamos a su php class / Lo conectamos a su template-->
+            <block class="VendorClassCuatro\ModuloClassCuatro\Block\CustomMessage"
+                   name="message"
+                   template="VendorClassCuatro_ModuloClassCuatro::product/message.phtml" />
+        </referenceContainer>
+    </body>
+</page>
+
+
+<!-- Qué hace este Layout
+
+    1.- Define un bloque llamado custom message
+    2.- Lo asocia a la clase de php Vendor\Module\Block\CustomMessage
+    3.- Lo conecta con la template custommessage.phtml
+
+
+
+-->
